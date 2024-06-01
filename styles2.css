@@ -1,0 +1,34 @@
+* {
+    background-color: black;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .box {
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    animation: moveBox 3s infinite alternate-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+
+  }
+  
+  @keyframes moveBox {
+    0% {
+      transform: translateX(2px);
+    }
+    50% {
+      transform: translateX(400px);
+      background-color: skyblue;
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
