@@ -21,7 +21,7 @@ body {
   
   @keyframes moveBox {
     0% {
-      transform: translateX(2px);
+      transform: translateX(0);
     }
     50% {
       transform: translateX(400px);
